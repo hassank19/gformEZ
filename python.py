@@ -6,9 +6,9 @@ def ask_ai(question):
     You are answering a Google Form.
 
     Rules:
-    - Return ONLY the final answer
-    - No explanation
-    - No extra words
+    - If the question is an Multiple choice question, choose the right option and give no explaination
+    - If the question is subjective, give the appropirate answer and do not make it too long
+    - If the question asks for personal information like name or contact, return "User input" 
 
     Question:
     {question}
