@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gformEZ - Google Forms Helper</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #111111;
+            background-color: #ffffff;
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #333333;
+        }
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #333333;
+        }
+        code {
+            font-family: Courier, monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .subtitle {
+            color: #666666;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #888888;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>gformEZ</h1>
+        <p class="subtitle">An AI-assisted Google Forms helper that reads a Google Form and generates suggested answers using Google's Gemini model.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Reads Google Forms automatically</li>
+                <li>Extracts questions</li>
+                <li>Generates AI answers</li>
+                <li>Supports multiple-choice and text questions</li>
+                <li>User reviews answers before submission</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Requirements</h2>
+            <ul>
+                <li>Python 3.11+</li>
+                <li>Playwright</li>
+                <li>Gemini API Key</li>
+                <li>Internet connection</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Installation</h2>
+            <ol>
+                <li>Clone the repository to your local directory.</li>
+                <li>Install the required project dependencies.</li>
+                <li>Install the Playwright browsers via your terminal.</li>
+                <li>Obtain a Gemini API key from Google AI Studio.</li>
+                <li>Run the execution script.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Usage</h2>
+            <ol>
+                <li>Run <code>python.py</code></li>
+                <li>Enter your Gemini API key when prompted.</li>
+                <li>Enter the Google Form URL.</li>
+                <li>Wait for answers to generate.</li>
+                <li>Review the generated answers.</li>
+                <li>Fill and submit the form manually.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Limitations</h2>
+            <ul>
+                <li>AI answers may be incorrect.</li>
+                <li>Personal information must be entered manually.</li>
+                <li>Forms with unusual layouts may not be parsed correctly.</li>
+                <li>Requires a Gemini API key.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 gformEZ. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
